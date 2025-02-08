@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>StagOverflow</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./iaq-style.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d97221">
+  <meta name="msapplication-TileColor" content="#f8a666">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Hero -->
+  <section class="et-hero-tabs">
+    <img src="media/stagoverflow_animation_delayed.svg">
+    <div class="et-hero-tabs-container">
+      <a class="et-hero-tab" href="#tabs-about">About</a>
+      <a class="et-hero-tab" href="#tabs-iaq">IAQ</a>
+      <a class="et-hero-tab" href="#tabs-links">Links</a>
+      <span class="et-hero-tab-slider"></span>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <main class="et-main">
+    <section class="et-slide" id="tabs-about">
+      <h1>About</h1>
+<!--      I need the div b/c otherwise the href makes a linebreak-->
+      <div>
+        There are those, who call me Stag.
+        <br>
+        And there is the popular Q&A website <a href="https://stackoverflow.com">StackOverflow</a>.
+        <br>
+        It was only a matter of time for this page to come to life …
+      </div>
+
+    </section>
+    <section class="et-slide" id="tabs-iaq">
+      <h1>IAQ</h1>
+      <h2>Infrequently Asked Questions</h2>
+      Really, I don't recally anyone asking me this before. Still, here we go:
+      <div class="container">
+      <div class="accordion">
+        <div class="accordion-item">
+          <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Wouldn't <code>stagoverflow.com</code> be the better domain?<br>Why is a <code>.de</code> website in english? I'm so confused!</span><span class="icon" aria-hidden="true"></span></button>
+          <div class="accordion-content">
+            <p>Yes, I would have liked it better. But it was three times as expensive and after all this website is just here for shits and giggles. It's still in english because I like to allow more people to enjoy the nonsense that I produce.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Are that sausages in the frying pan?</span><span class="icon" aria-hidden="true"></span></button>
+          <div class="accordion-content">
+            <p>No!</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Why is there a frying pan with pancakes in the logo?</span><span class="icon" aria-hidden="true"></span></button>
+          <div class="accordion-content">
+            <p>I like pancakes and so should you. It was just the first thing that came to my mind when thinking of how to mock the <a href="https://stackoverflow.design/brand/logo/">StackOverflow logo</a>.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How did you create that totally awesome animation?</span><span class="icon" aria-hidden="true"></span></button>
+          <div class="accordion-content">
+            <p>Because I'm a total amateur when it comes to web design, I couldn't code it in CSS myself. Instead I had to rely on some black magic (some unicorn blood may or may not have been involved) and the awesome SVG animation GUI at <a href="http://anigen.org/versions/0_8_1/">anigen.org</a>. </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">Did you code this website all on your own?</span><span class="icon" aria-hidden="true"></span></button>
+          <div class="accordion-content">
+            <p>No. Because I'm a total amateur when it comes to web design, I used templates from <a href="https://codepen.io">CodePen</a>, namely <a href="https://codepen.io/ettrics/pen/WRbGRN">this</a> and <a href="https://codepen.io/kathykato/pen/MoZJom">this</a>. </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How many Möbius strips can you fit in a three dimensional space?</span><span class="icon" aria-hidden="true"></span></button>
+          <div class="accordion-content">
+            <p>This may come as a surprise, but you can only fit countably many Möbius strips in a three dimensional space, even though Möbius strips are two dimensional objects. For all the juice details, head <a href="https://doi.org/10.1142/S0218216518420051">here</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="et-slide" id="tabs-links">
+      <h1>Find Me On</h1>
+      <div>
+      <a href="https://github.com/Bibo-Joshi"><img class="social" src="media/github.svg"></a>
+      <a href="https://gitlab.com/HirschHeissIch"><img class="social" src="media/gitlab.svg"></a>
+      <a href="https://stackexchange.com/users/14687358/"><img class="social" src="media/stack-exchange.svg"></a>
+      <a href="https://t.me/BiboJoshi"><img class="social" src="media/telegram-plane.svg"></a>
+      <a href="https://hirschheissi.ch"><img class="social" src="media/hirschheissich.svg"></a>
+      </div>
+    </section>
+  </main>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script  src="./script.js"></script>
+  <script  src="./iaq-script.js"></script>
+
+
+</body>
+</html>
+
